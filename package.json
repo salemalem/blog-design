@@ -1,0 +1,29 @@
+{
+  "name": "blog-design",
+  "version": "1.0.0",
+  "description": "Tailwind CSS powered Self-hosted blog design.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss src/css/app.css -o public/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salemalem/blog-design.git"
+  },
+  "keywords": [],
+  "author": "Shyngys Shynbolatov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salemalem/blog-design/issues"
+  },
+  "homepage": "https://github.com/salemalem/blog-design#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
